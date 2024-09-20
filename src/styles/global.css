@@ -1,0 +1,40 @@
+html {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+    color: darkcyan;
+    font-weight: lighter;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: darkslategray;
+  }
+  a {
+    font-size: 1.75rem;
+    color: darkred;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration-line: none;
+    padding: 1rem;
+  }

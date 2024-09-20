@@ -1,5 +1,10 @@
 ---
+import '../styles/global.css';
+
 const pageTitle = 'Bloggish'
+const linkColor = "blue";
+const fontWeight = "bold"
+const textCase = "uppercase"
 ---
 
 <html lang="en">
@@ -8,6 +13,17 @@ const pageTitle = 'Bloggish'
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
   </head>
+  <style define:vars={{linkColor,fontWeight,textCase}}>
+    h1 {
+      color: purple;
+      font-size: 4rem;
+    }
+    li {
+        color: var(--linkColor);
+        font-weight: var(--fontWeight);
+        text-transform: var(--textCase);
+    }
+  </style>
   <body>
     <a href="/">Home</a>
     <a href="/about/">About</a>
